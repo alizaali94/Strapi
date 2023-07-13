@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_my_utils_is_approveds",
+  "info": {
+    "displayName": "isApproved",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "isCompleted": {
+      "type": "enumeration",
+      "enum": [
+        "completed",
+        "failed"
+      ]
+    }
+  }
+}

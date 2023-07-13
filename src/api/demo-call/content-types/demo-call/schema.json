@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_calls",
+  "info": {
+    "singularName": "demo-call",
+    "pluralName": "demo-calls",
+    "displayName": "Demo Call",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "phone_number": {
+      "type": "string",
+      "required": true
+    },
+    "country_or_region": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "approved",
+        "completed",
+        "canceled"
+      ],
+      "default": "pending",
+      "private": true
+    }
+  }
+}
